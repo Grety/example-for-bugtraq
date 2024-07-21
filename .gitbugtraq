@@ -1,0 +1,12 @@
+
+[bugtraq "pulls"]
+url = "https://github.com/Grety/example-for-bugtraq/pull/%BUGID%"
+logfilterregex = "request #\\d+"
+loglinkregex = "#\\d+"
+logregex = "\\d+"
+
+[bugtraq "issues"]
+url = "https://github.com/Grety/example-for-bugtraq/issues/%BUGID%"
+logfilterregex = "example-for-bugtraq#\\d+"
+loglinkregex = "#\\d+"
+logregex = "\\d+"
